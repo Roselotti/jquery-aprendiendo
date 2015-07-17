@@ -1,0 +1,37 @@
+doctype html
+html(class="no-js", lang="es")
+	head
+		//- TODO: Check if it's the good charset
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		title Mi página web
+		meta(name='description', content='Esta es mi primera web hecha con flujo de trabajo Gulp')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		//- TODO : Place favicon.ico and apple-touch-icon.png in the root directory
+		block css
+			link(rel='stylesheet', href='css/main.css')
+
+	body
+		.container
+			.row
+				h1 Título Principal de la web
+				.col-xs-3
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ad placeat corrupti itaque corporis quam, iste nemo dolorem obcaecati soluta dolores, ut facere eum, delectus esse! Laboriosam veritatis, aperiam, molestiae necessitatibus nostrum totam voluptates natus omnis suscipit quaerat at delectus sunt voluptatum quibusdam tempora. Ut ipsa ullam tempora voluptatum adipisci.
+				.col-xs-3
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta esse commodi consequuntur autem, perferendis, corporis dignissimos saepe animi quidem rem ad distinctio ullam officia veniam iste fugit provident. Quisquam aut molestias delectus inventore at nihil quia nisi dolore, quam dignissimos? Officia quod repellat quas dolor nulla nam deleniti eos quibusdam.
+				.col-xs-3
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ad placeat corrupti itaque corporis quam, iste nemo dolorem obcaecati soluta dolores, ut facere eum, delectus esse! Laboriosam veritatis, aperiam, molestiae necessitatibus nostrum totam voluptates natus omnis suscipit quaerat at delectus sunt voluptatum quibusdam tempora. Ut ipsa ullam tempora voluptatum adipisci.
+				.col-xs-3
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta esse commodi consequuntur autem, perferendis, corporis dignissimos saepe animi quidem rem ad distinctio ullam officia veniam iste fugit provident. Quisquam aut molestias delectus inventore at nihil quia nisi dolore, quam dignissimos? Officia quod repellat quas dolor nulla nam deleniti eos quibusdam.
+
+		//-
+			Add your site or application content here
+
+		block main
+			p Hello world! This is HTML5 Boilerplate.
+
+		block bottom-script
+			script(src='js/script.js')
+
+
+	
